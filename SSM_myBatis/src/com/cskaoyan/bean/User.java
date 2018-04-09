@@ -6,7 +6,7 @@ public class User {
     String username;
     String password;
     String sex;
-    String hobby;
+//    String hobby;
 
     public int getId() {
         return id;
@@ -39,14 +39,14 @@ public class User {
     public void setSex(String sex) {
         this.sex = sex;
     }
-
-    public String getHobby() {
-        return hobby;
-    }
-
-    public void setHobby(String hobby) {
-        this.hobby = hobby;
-    }
+//
+//    public String getHobby() {
+//        return hobby;
+//    }
+//
+//    public void setHobby(String hobby) {
+//        this.hobby = hobby;
+//    }
 
     @Override
     public String toString() {
@@ -55,7 +55,7 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", sex='" + sex + '\'' +
-                ", hobby='" + hobby + '\'' +
+//                ", hobby='" + hobby + '\'' +
                 '}';
     }
 }
